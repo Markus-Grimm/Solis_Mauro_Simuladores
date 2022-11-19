@@ -14,11 +14,7 @@ TagManager:
   - Volcano
   - City
   - SnowPlains
-  - TerrainPlains
-  - TerrainDesert
-  - TerrainSnow
-  - TerrainJungle
-  - TerrainMountains
+  - TerrainPrefab
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,7 @@ public class CitySettings : MonoBehaviour
         mili = miliObj.GetComponent<Slider>();
         urba = urbaObj.GetComponent<Slider>();
 
-        _maxValue = 100;
+        _maxValue = 1000;
     }
 
     public void EconomySetting()
@@ -61,6 +61,7 @@ public class CitySettings : MonoBehaviour
         if (econ.value + mili.value + urba.value <= _maxValue)
         {
             PlayerPrefs.SetFloat("Urbanism", urba.value);
+
         }
         else
         {
