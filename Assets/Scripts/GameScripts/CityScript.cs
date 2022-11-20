@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class CityScript : MonoBehaviour
 {
-    public float economy, militarism, urbanism;
-    public Text poputxt, secutxt, expIndtxt, happtxt, rebIndtxt, collIndtxt;
-    public GameObject population, security, expanIndex, happines, rebelIndex, collapseIndex, objectData, terrainObj;
+    public GameObject objectData, terrainObj;
     public GameObject[] limiTerrains = new GameObject[6];
 
     private bool collDetect;
@@ -18,31 +16,6 @@ public class CityScript : MonoBehaviour
 
     void Start()
     {
-        objectData = GameObject.Find("GameController");
-        dataManager = objectData.GetComponent<DataManager>();
-
-        economy = dataManager.econ;
-        militarism = dataManager.mili;
-        urbanism = dataManager.urba;
-
-        population = GameObject.Find("Population");
-        poputxt = population.GetComponent<Text>();
-
-        security = GameObject.Find("Security");
-        secutxt = security.GetComponent<Text>();
-
-        expanIndex = GameObject.Find("Expansionindex");
-        expIndtxt = expanIndex.GetComponent<Text>();
-
-        happines = GameObject.Find("Happiness");
-        happtxt = happines.GetComponent<Text>();
-
-        rebelIndex = GameObject.Find("Rebellionindex");
-        rebIndtxt = rebelIndex.GetComponent<Text>();
-
-        collapseIndex = GameObject.Find("Collapseindex");
-        collIndtxt = collapseIndex.GetComponent<Text>();
-
         terrainObj = this.gameObject;
         terrainScript = terrainObj.GetComponent<TerrainScript>();
 

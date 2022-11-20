@@ -113,11 +113,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6899011449414400496
 Rigidbody2D:
   serializedVersion: 4
@@ -126,13 +127,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951203480017}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -285,11 +286,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6488858858215005521
 Rigidbody2D:
   serializedVersion: 4
@@ -298,13 +300,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951209587040}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -457,11 +459,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1659392222707840964
 Rigidbody2D:
   serializedVersion: 4
@@ -470,13 +473,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951209823308}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -629,11 +632,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3260057632725344543
 Rigidbody2D:
   serializedVersion: 4
@@ -642,13 +646,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951210840778}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -801,11 +805,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9097436302485449670
 Rigidbody2D:
   serializedVersion: 4
@@ -814,13 +819,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951216291608}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -973,11 +978,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6780595997137357973
 Rigidbody2D:
   serializedVersion: 4
@@ -986,13 +992,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951218618015}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1145,11 +1151,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6323667970042798632
 Rigidbody2D:
   serializedVersion: 4
@@ -1158,13 +1165,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951226803257}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1317,11 +1324,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7236395441763822422
 Rigidbody2D:
   serializedVersion: 4
@@ -1330,13 +1338,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951255032646}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1489,11 +1497,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &803163260986259130
 Rigidbody2D:
   serializedVersion: 4
@@ -1502,13 +1511,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951264091843}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1661,11 +1670,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1136204602212878281
 Rigidbody2D:
   serializedVersion: 4
@@ -1674,13 +1684,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951283418032}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -1833,11 +1843,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1336200945918893990
 Rigidbody2D:
   serializedVersion: 4
@@ -1846,13 +1857,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951308853070}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2005,11 +2016,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3195000343886527992
 Rigidbody2D:
   serializedVersion: 4
@@ -2018,13 +2030,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951331522210}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2177,11 +2189,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4019403525908221863
 Rigidbody2D:
   serializedVersion: 4
@@ -2190,13 +2203,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951333615611}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2349,11 +2362,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8967513916758349771
 Rigidbody2D:
   serializedVersion: 4
@@ -2362,13 +2376,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951342534396}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2521,11 +2535,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &200484224845560027
 Rigidbody2D:
   serializedVersion: 4
@@ -2534,13 +2549,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951345402062}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2693,11 +2708,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2313666142045920384
 Rigidbody2D:
   serializedVersion: 4
@@ -2706,13 +2722,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951346024144}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -2865,11 +2881,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6511114143559240298
 Rigidbody2D:
   serializedVersion: 4
@@ -2878,13 +2895,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951365664591}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3037,11 +3054,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3720472845130444673
 Rigidbody2D:
   serializedVersion: 4
@@ -3050,13 +3068,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951366579215}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3209,11 +3227,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1239835587021435690
 Rigidbody2D:
   serializedVersion: 4
@@ -3222,13 +3241,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951386270183}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3381,11 +3400,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1034547571125560401
 Rigidbody2D:
   serializedVersion: 4
@@ -3394,13 +3414,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951405475014}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3553,11 +3573,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1902336320018323454
 Rigidbody2D:
   serializedVersion: 4
@@ -3566,13 +3587,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951416635771}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3725,11 +3746,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2994977328914084013
 Rigidbody2D:
   serializedVersion: 4
@@ -3738,13 +3760,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951420369905}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -3897,11 +3919,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3080198861734156124
 Rigidbody2D:
   serializedVersion: 4
@@ -3910,13 +3933,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951434188696}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4069,11 +4092,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2887338330458894692
 Rigidbody2D:
   serializedVersion: 4
@@ -4082,13 +4106,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951440263984}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4241,11 +4265,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3995959313868136372
 Rigidbody2D:
   serializedVersion: 4
@@ -4254,13 +4279,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951447333669}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4413,11 +4438,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7304953465665167582
 Rigidbody2D:
   serializedVersion: 4
@@ -4426,13 +4452,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951448750620}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4585,11 +4611,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6699588245873224273
 Rigidbody2D:
   serializedVersion: 4
@@ -4598,13 +4625,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951463846445}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4757,11 +4784,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1171608825999280356
 Rigidbody2D:
   serializedVersion: 4
@@ -4770,13 +4798,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951476103174}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -4929,11 +4957,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &18683319448452815
 Rigidbody2D:
   serializedVersion: 4
@@ -4942,13 +4971,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951488435464}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5101,11 +5130,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &494767467630624489
 Rigidbody2D:
   serializedVersion: 4
@@ -5114,13 +5144,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951489731366}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5273,11 +5303,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1518714380852161196
 Rigidbody2D:
   serializedVersion: 4
@@ -5286,13 +5317,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951519092445}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5445,11 +5476,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &754292495141908910
 Rigidbody2D:
   serializedVersion: 4
@@ -5458,13 +5490,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951544242663}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5617,11 +5649,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7062006393102169549
 Rigidbody2D:
   serializedVersion: 4
@@ -5630,13 +5663,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951552755151}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5789,11 +5822,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4717885108587107552
 Rigidbody2D:
   serializedVersion: 4
@@ -5802,13 +5836,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951568989998}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -5961,11 +5995,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9182490741539317027
 Rigidbody2D:
   serializedVersion: 4
@@ -5974,13 +6009,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951581027403}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6133,11 +6168,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7040383263640342635
 Rigidbody2D:
   serializedVersion: 4
@@ -6146,13 +6182,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951603394692}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6305,11 +6341,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7281538530256905097
 Rigidbody2D:
   serializedVersion: 4
@@ -6318,13 +6355,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951605625939}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6477,11 +6514,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8153109579354210991
 Rigidbody2D:
   serializedVersion: 4
@@ -6490,13 +6528,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951611834367}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6649,11 +6687,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5971972704552694655
 Rigidbody2D:
   serializedVersion: 4
@@ -6662,13 +6701,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951622289641}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6821,11 +6860,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8104670401938264724
 Rigidbody2D:
   serializedVersion: 4
@@ -6834,13 +6874,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951656443686}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -6993,11 +7033,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3957088118743160839
 Rigidbody2D:
   serializedVersion: 4
@@ -7006,13 +7047,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951658364446}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -7165,11 +7206,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2387815402121376161
 Rigidbody2D:
   serializedVersion: 4
@@ -7178,13 +7220,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951689388685}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -7337,11 +7379,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9222614022688780248
 Rigidbody2D:
   serializedVersion: 4
@@ -7350,13 +7393,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951710780377}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -7509,11 +7552,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9086945186550184037
 Rigidbody2D:
   serializedVersion: 4
@@ -7522,13 +7566,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951711232532}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -7681,11 +7725,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2428386882716855792
 Rigidbody2D:
   serializedVersion: 4
@@ -7694,13 +7739,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951713038371}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -7853,11 +7898,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2690092300816234487
 Rigidbody2D:
   serializedVersion: 4
@@ -7866,13 +7912,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951713244058}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8025,11 +8071,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1323737992501460361
 Rigidbody2D:
   serializedVersion: 4
@@ -8038,13 +8085,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951714277654}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8197,11 +8244,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5787125498676356559
 Rigidbody2D:
   serializedVersion: 4
@@ -8210,13 +8258,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951723089055}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8369,11 +8417,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4977711620068205630
 Rigidbody2D:
   serializedVersion: 4
@@ -8382,13 +8431,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951733521180}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8541,11 +8590,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2514132769098489275
 Rigidbody2D:
   serializedVersion: 4
@@ -8554,13 +8604,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951757684140}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8713,11 +8763,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6890978731603579438
 Rigidbody2D:
   serializedVersion: 4
@@ -8726,13 +8777,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951779799323}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -8885,11 +8936,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6856030960263833625
 Rigidbody2D:
   serializedVersion: 4
@@ -8898,13 +8950,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951795584522}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9057,11 +9109,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1456661526059117250
 Rigidbody2D:
   serializedVersion: 4
@@ -9070,13 +9123,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951825837297}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9229,11 +9282,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8533389347717428638
 Rigidbody2D:
   serializedVersion: 4
@@ -9242,13 +9296,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951839986662}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9401,11 +9455,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7884867905121969485
 Rigidbody2D:
   serializedVersion: 4
@@ -9414,13 +9469,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951845176306}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9573,11 +9628,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1825173012186028201
 Rigidbody2D:
   serializedVersion: 4
@@ -9586,13 +9642,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951848275528}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9745,11 +9801,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &938527468124711065
 Rigidbody2D:
   serializedVersion: 4
@@ -9758,13 +9815,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951903769520}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -9917,11 +9974,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3469145468248759036
 Rigidbody2D:
   serializedVersion: 4
@@ -9930,13 +9988,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951906389040}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10089,11 +10147,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5314715729716586914
 Rigidbody2D:
   serializedVersion: 4
@@ -10102,13 +10161,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951907349271}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10261,11 +10320,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3036338505571490248
 Rigidbody2D:
   serializedVersion: 4
@@ -10274,13 +10334,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951918104605}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10433,11 +10493,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6613215529573269748
 Rigidbody2D:
   serializedVersion: 4
@@ -10446,13 +10507,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951923603899}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10605,11 +10666,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4463158519916288232
 Rigidbody2D:
   serializedVersion: 4
@@ -10618,13 +10680,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951932523053}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10777,11 +10839,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1582038734657061225
 Rigidbody2D:
   serializedVersion: 4
@@ -10790,13 +10853,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951943451012}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -10949,11 +11012,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3768641730920876145
 Rigidbody2D:
   serializedVersion: 4
@@ -10962,13 +11026,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951952256477}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11121,11 +11185,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8368684846173267589
 Rigidbody2D:
   serializedVersion: 4
@@ -11134,13 +11199,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951959827610}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11293,11 +11358,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &985247835499921318
 Rigidbody2D:
   serializedVersion: 4
@@ -11306,13 +11372,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951961492296}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11465,11 +11531,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7915507660926973055
 Rigidbody2D:
   serializedVersion: 4
@@ -11478,13 +11545,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951963936591}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11637,11 +11704,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2759735576997609357
 Rigidbody2D:
   serializedVersion: 4
@@ -11650,13 +11718,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951976054025}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11809,11 +11877,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3932274487939240955
 Rigidbody2D:
   serializedVersion: 4
@@ -11822,13 +11891,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951985270665}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -11981,11 +12050,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1497288295579239476
 Rigidbody2D:
   serializedVersion: 4
@@ -11994,13 +12064,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951993988006}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -12153,11 +12223,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3592284711376511234
 Rigidbody2D:
   serializedVersion: 4
@@ -12166,13 +12237,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951998001781}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -12325,11 +12396,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &615955677662537758
 Rigidbody2D:
   serializedVersion: 4
@@ -12338,13 +12410,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567951998047265}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -12497,11 +12569,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6025466839264955344
 Rigidbody2D:
   serializedVersion: 4
@@ -12510,13 +12583,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952003449468}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -12669,11 +12742,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &150500141318236181
 Rigidbody2D:
   serializedVersion: 4
@@ -12682,13 +12756,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952017261717}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -12841,11 +12915,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4905958781173934259
 Rigidbody2D:
   serializedVersion: 4
@@ -12854,13 +12929,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952017887066}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13013,11 +13088,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1105522681153753893
 Rigidbody2D:
   serializedVersion: 4
@@ -13026,13 +13102,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952023393920}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13185,11 +13261,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6833910849402459371
 Rigidbody2D:
   serializedVersion: 4
@@ -13198,13 +13275,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952029906673}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13357,11 +13434,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2801286007605875492
 Rigidbody2D:
   serializedVersion: 4
@@ -13370,13 +13448,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952039916826}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13529,11 +13607,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2461643773733943928
 Rigidbody2D:
   serializedVersion: 4
@@ -13542,13 +13621,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952042423356}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13701,11 +13780,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1225540633183376591
 Rigidbody2D:
   serializedVersion: 4
@@ -13714,13 +13794,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952086774902}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -13873,11 +13953,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6499035042553393175
 Rigidbody2D:
   serializedVersion: 4
@@ -13886,13 +13967,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952090241395}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14045,11 +14126,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2760440226962443955
 Rigidbody2D:
   serializedVersion: 4
@@ -14058,13 +14140,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952094969942}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14217,11 +14299,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1694176093205881955
 Rigidbody2D:
   serializedVersion: 4
@@ -14230,13 +14313,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952101806684}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14389,11 +14472,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7834547476216828865
 Rigidbody2D:
   serializedVersion: 4
@@ -14402,13 +14486,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952106478110}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14561,11 +14645,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3453933246142658440
 Rigidbody2D:
   serializedVersion: 4
@@ -14574,13 +14659,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952107618424}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14733,11 +14818,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5805265852082821664
 Rigidbody2D:
   serializedVersion: 4
@@ -14746,13 +14832,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952111678502}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -14905,11 +14991,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3540601852404449726
 Rigidbody2D:
   serializedVersion: 4
@@ -14918,13 +15005,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952113461301}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15077,11 +15164,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9097899011955610253
 Rigidbody2D:
   serializedVersion: 4
@@ -15090,13 +15178,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952114870289}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15249,11 +15337,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &165260883195817539
 Rigidbody2D:
   serializedVersion: 4
@@ -15262,13 +15351,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952129517729}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15421,11 +15510,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4308776527357067784
 Rigidbody2D:
   serializedVersion: 4
@@ -15434,13 +15524,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952149439567}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15593,11 +15683,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2055507895652379928
 Rigidbody2D:
   serializedVersion: 4
@@ -15606,13 +15697,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952150702779}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15765,11 +15856,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1421540585035361704
 Rigidbody2D:
   serializedVersion: 4
@@ -15778,13 +15870,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952169795638}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -15937,11 +16029,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &725604244197346639
 Rigidbody2D:
   serializedVersion: 4
@@ -15950,13 +16043,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952183269857}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16109,11 +16202,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8288101396807756691
 Rigidbody2D:
   serializedVersion: 4
@@ -16122,13 +16216,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952188688376}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16281,11 +16375,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8482512257396766950
 Rigidbody2D:
   serializedVersion: 4
@@ -16294,13 +16389,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952208604450}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16453,11 +16548,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5151068462389107270
 Rigidbody2D:
   serializedVersion: 4
@@ -16466,13 +16562,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952216501298}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16625,11 +16721,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6114029378536781453
 Rigidbody2D:
   serializedVersion: 4
@@ -16638,13 +16735,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952221976515}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16797,11 +16894,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2518167913872443467
 Rigidbody2D:
   serializedVersion: 4
@@ -16810,13 +16908,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952254210305}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -16969,11 +17067,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7222594408594867854
 Rigidbody2D:
   serializedVersion: 4
@@ -16982,13 +17081,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952264152890}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -17141,11 +17240,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1597013319270871714
 Rigidbody2D:
   serializedVersion: 4
@@ -17154,13 +17254,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952271090117}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -17313,11 +17413,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &130100511651222059
 Rigidbody2D:
   serializedVersion: 4
@@ -17326,13 +17427,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952294924957}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -17485,11 +17586,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6375462596120588725
 Rigidbody2D:
   serializedVersion: 4
@@ -17498,13 +17600,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952312974682}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -17657,11 +17759,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &529311743725877390
 Rigidbody2D:
   serializedVersion: 4
@@ -17670,13 +17773,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952335081079}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -17829,11 +17932,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &110660516676324382
 Rigidbody2D:
   serializedVersion: 4
@@ -17842,13 +17946,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952373837364}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18001,11 +18105,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1926289317628377990
 Rigidbody2D:
   serializedVersion: 4
@@ -18014,13 +18119,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952408187894}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18173,11 +18278,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &254930661148689912
 Rigidbody2D:
   serializedVersion: 4
@@ -18186,13 +18292,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952421285535}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18345,11 +18451,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3414337992328102663
 Rigidbody2D:
   serializedVersion: 4
@@ -18358,13 +18465,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952432256102}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18517,11 +18624,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8140986613252024624
 Rigidbody2D:
   serializedVersion: 4
@@ -18530,13 +18638,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952435497214}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18689,11 +18797,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7693149720423542455
 Rigidbody2D:
   serializedVersion: 4
@@ -18702,13 +18811,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952471567751}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -18861,11 +18970,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7954562711945290990
 Rigidbody2D:
   serializedVersion: 4
@@ -18874,13 +18984,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952477124836}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19033,11 +19143,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1129676663041812218
 Rigidbody2D:
   serializedVersion: 4
@@ -19046,13 +19157,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952500451900}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19205,11 +19316,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3201574591422621735
 Rigidbody2D:
   serializedVersion: 4
@@ -19218,13 +19330,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952503303526}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19377,11 +19489,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8692096178041905229
 Rigidbody2D:
   serializedVersion: 4
@@ -19390,13 +19503,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952507412342}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19549,11 +19662,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &116137465002044099
 Rigidbody2D:
   serializedVersion: 4
@@ -19562,13 +19676,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952515683456}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19721,11 +19835,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8215324595096927042
 Rigidbody2D:
   serializedVersion: 4
@@ -19734,13 +19849,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952521258753}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -19893,11 +20008,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5072129806862840922
 Rigidbody2D:
   serializedVersion: 4
@@ -19906,13 +20022,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952540343277}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20065,11 +20181,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &184662180495921312
 Rigidbody2D:
   serializedVersion: 4
@@ -20078,13 +20195,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952540971180}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20237,11 +20354,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1433130033071648462
 Rigidbody2D:
   serializedVersion: 4
@@ -20250,13 +20368,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952550011475}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20409,11 +20527,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3172836583095595189
 Rigidbody2D:
   serializedVersion: 4
@@ -20422,13 +20541,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952560371700}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20581,11 +20700,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7558053728153099586
 Rigidbody2D:
   serializedVersion: 4
@@ -20594,13 +20714,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952570982350}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20753,11 +20873,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6329104672979014368
 Rigidbody2D:
   serializedVersion: 4
@@ -20766,13 +20887,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952587055891}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -20925,11 +21046,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1907323477310193638
 Rigidbody2D:
   serializedVersion: 4
@@ -20938,13 +21060,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952608020121}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21097,11 +21219,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4580692541123645873
 Rigidbody2D:
   serializedVersion: 4
@@ -21110,13 +21233,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952616638478}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21269,11 +21392,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6762497680549896301
 Rigidbody2D:
   serializedVersion: 4
@@ -21282,13 +21406,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952616944939}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21441,11 +21565,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6558255828437973288
 Rigidbody2D:
   serializedVersion: 4
@@ -21454,13 +21579,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952635775730}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21613,11 +21738,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6093444751898324920
 Rigidbody2D:
   serializedVersion: 4
@@ -21626,13 +21752,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952667205517}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21785,11 +21911,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3724081673050060168
 Rigidbody2D:
   serializedVersion: 4
@@ -21798,13 +21925,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952675825048}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -21957,11 +22084,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6507296119017080469
 Rigidbody2D:
   serializedVersion: 4
@@ -21970,13 +22098,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952695035559}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22129,11 +22257,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7397939570872606706
 Rigidbody2D:
   serializedVersion: 4
@@ -22142,13 +22271,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952696020958}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22301,11 +22430,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5300819397085610827
 Rigidbody2D:
   serializedVersion: 4
@@ -22314,13 +22444,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952698441998}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22473,11 +22603,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3009476527666010112
 Rigidbody2D:
   serializedVersion: 4
@@ -22486,13 +22617,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952707107214}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22645,11 +22776,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8584926393492744955
 Rigidbody2D:
   serializedVersion: 4
@@ -22658,13 +22790,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952740607696}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22817,11 +22949,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3931780585472049391
 Rigidbody2D:
   serializedVersion: 4
@@ -22830,13 +22963,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952764359666}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -22989,11 +23122,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6134472495436593224
 Rigidbody2D:
   serializedVersion: 4
@@ -23002,13 +23136,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952787068598}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -23161,11 +23295,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8210785656589732335
 Rigidbody2D:
   serializedVersion: 4
@@ -23174,13 +23309,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952792279916}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -23333,11 +23468,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2990812282435369389
 Rigidbody2D:
   serializedVersion: 4
@@ -23346,13 +23482,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952810186057}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -23505,11 +23641,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1659088666114356935
 Rigidbody2D:
   serializedVersion: 4
@@ -23518,13 +23655,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952812958388}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -23677,11 +23814,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7826457216426764443
 Rigidbody2D:
   serializedVersion: 4
@@ -23690,13 +23828,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952837432158}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24053,11 +24191,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4612611084415885922
 Rigidbody2D:
   serializedVersion: 4
@@ -24066,13 +24205,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952848210604}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24225,11 +24364,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5796891586559019167
 Rigidbody2D:
   serializedVersion: 4
@@ -24238,13 +24378,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952866779452}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24397,11 +24537,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2092781065290460020
 Rigidbody2D:
   serializedVersion: 4
@@ -24410,13 +24551,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952879584821}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24569,11 +24710,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1324334979113123988
 Rigidbody2D:
   serializedVersion: 4
@@ -24582,13 +24724,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952908665122}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24741,11 +24883,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4820235820839880779
 Rigidbody2D:
   serializedVersion: 4
@@ -24754,13 +24897,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952921171643}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -24913,11 +25056,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4725625051690551480
 Rigidbody2D:
   serializedVersion: 4
@@ -24926,13 +25070,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952924997921}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25085,11 +25229,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1211749083913268850
 Rigidbody2D:
   serializedVersion: 4
@@ -25098,13 +25243,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952950629947}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25257,11 +25402,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3073173302771451820
 Rigidbody2D:
   serializedVersion: 4
@@ -25270,13 +25416,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952951137846}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25429,11 +25575,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3883066385989623604
 Rigidbody2D:
   serializedVersion: 4
@@ -25442,13 +25589,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567952976648693}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25601,11 +25748,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1240133783498216255
 Rigidbody2D:
   serializedVersion: 4
@@ -25614,13 +25762,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953066846406}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25773,11 +25921,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2469966417046238285
 Rigidbody2D:
   serializedVersion: 4
@@ -25786,13 +25935,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953068884495}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -25945,11 +26094,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6033648154868686472
 Rigidbody2D:
   serializedVersion: 4
@@ -25958,13 +26108,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953069722488}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26117,11 +26267,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &974080196731570659
 Rigidbody2D:
   serializedVersion: 4
@@ -26130,13 +26281,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953087346037}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26289,11 +26440,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6625681029348603225
 Rigidbody2D:
   serializedVersion: 4
@@ -26302,13 +26454,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953090241820}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26461,11 +26613,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7119502727080865037
 Rigidbody2D:
   serializedVersion: 4
@@ -26474,13 +26627,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953112227606}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26633,11 +26786,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5409574046698508614
 Rigidbody2D:
   serializedVersion: 4
@@ -26646,13 +26800,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953124704185}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26805,11 +26959,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6622868922491626138
 Rigidbody2D:
   serializedVersion: 4
@@ -26818,13 +26973,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953127169774}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -26977,11 +27132,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3831437436437531506
 Rigidbody2D:
   serializedVersion: 4
@@ -26990,13 +27146,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953144073282}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -27149,11 +27305,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3837084321423506168
 Rigidbody2D:
   serializedVersion: 4
@@ -27162,13 +27319,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953167398328}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -27321,11 +27478,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1868381849780441665
 Rigidbody2D:
   serializedVersion: 4
@@ -27334,13 +27492,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953182012987}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -27493,11 +27651,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4326344734137236851
 Rigidbody2D:
   serializedVersion: 4
@@ -27506,13 +27665,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953187967600}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -27665,11 +27824,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &77682778265397496
 Rigidbody2D:
   serializedVersion: 4
@@ -27678,13 +27838,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953190258625}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -27837,11 +27997,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8668963113674989266
 Rigidbody2D:
   serializedVersion: 4
@@ -27850,13 +28011,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953202695546}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28009,11 +28170,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2278548546585971965
 Rigidbody2D:
   serializedVersion: 4
@@ -28022,13 +28184,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953215023964}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28181,11 +28343,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6363567975155921367
 Rigidbody2D:
   serializedVersion: 4
@@ -28194,13 +28357,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953229903156}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28353,11 +28516,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &7667587471944104708
 Rigidbody2D:
   serializedVersion: 4
@@ -28366,13 +28530,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953245317578}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28525,11 +28689,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &4364193366555761632
 Rigidbody2D:
   serializedVersion: 4
@@ -28538,13 +28703,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953249031204}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28697,11 +28862,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &3218066277656793477
 Rigidbody2D:
   serializedVersion: 4
@@ -28710,13 +28876,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953250290143}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -28869,11 +29035,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &9154683757530142241
 Rigidbody2D:
   serializedVersion: 4
@@ -28882,13 +29049,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953266931311}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29041,11 +29208,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &2273519352891837254
 Rigidbody2D:
   serializedVersion: 4
@@ -29054,13 +29222,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953269416902}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29213,11 +29381,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &6107259692099441214
 Rigidbody2D:
   serializedVersion: 4
@@ -29226,13 +29395,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953276315971}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29385,11 +29554,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &301285780677102600
 Rigidbody2D:
   serializedVersion: 4
@@ -29398,13 +29568,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953309486882}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29557,11 +29727,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8537329511919334817
 Rigidbody2D:
   serializedVersion: 4
@@ -29570,13 +29741,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953319592538}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29729,11 +29900,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &1619594730228092350
 Rigidbody2D:
   serializedVersion: 4
@@ -29742,13 +29914,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953325839571}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -29901,11 +30073,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &8612156512384178363
 Rigidbody2D:
   serializedVersion: 4
@@ -29914,13 +30087,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953344254273}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -30073,11 +30246,12 @@ MonoBehaviour:
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
   selectPrefab: {fileID: 360111229002058466, guid: 8c37dc1d93c7c124ca4e6822e967cead, type: 3}
   isSelected: 0
   terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!50 &5881054068475934865
 Rigidbody2D:
   serializedVersion: 4
@@ -30086,13 +30260,13 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5002567953346048693}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0

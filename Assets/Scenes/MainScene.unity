@@ -207,7 +207,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 326313352}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 8
+  m_MaxValue: 16
   m_WholeNumbers: 1
   m_Value: 1
   m_OnValueChanged:
@@ -2319,6 +2319,7 @@ MonoBehaviour:
   happ: 0
   rebInd: 0
   collInd: 0
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
   econtxt: {fileID: 1933670549}
   militxt: {fileID: 1115310032}
   urbatxt: {fileID: 814592284}
@@ -2362,6 +2363,7 @@ MonoBehaviour:
   timeEcon: 0
   timeMili: 0
   timeUrba: 0
+  limit: 0
   time: 0
   econPercent: 0
   miliPercent: 0
@@ -9680,6 +9682,18 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5002567952695035560, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002567952695035560, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002567952695035560, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5002567952696020958, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -9932,6 +9946,5 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6507296119017080469, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e641c21ed2968745aacd5771a20e599, type: 3}

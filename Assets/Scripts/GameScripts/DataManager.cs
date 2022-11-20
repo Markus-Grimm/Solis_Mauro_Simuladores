@@ -10,6 +10,7 @@ public class DataManager : MonoBehaviour
 {
     public float _econ, _mili, _urba;
     public int econ, mili, urba, popu, reso, secu, expInd, happ, rebInd, collInd;
+    public int[] bonus = new int[9];
     public Text econtxt, militxt, urbatxt, poputxt, resotxt, secutxt, expIndtxt, happtxt, rebIndtxt, collIndtxt;
     public GameObject economy, militarism, urbanism, population, resources, security, expanIndex, happines, rebelIndex, collapseIndex;
 
@@ -156,8 +157,18 @@ public class DataManager : MonoBehaviour
     public void StartSim()
     {        
         city = GameObject.FindGameObjectWithTag("City");
+        city.GetComponent<TerrainScript>().SetCity();
         terrainScript = city.GetComponent<TerrainScript>();
 
+        bonus[0] =+ terrainScript.bonus[0];
+        bonus[1] =+ terrainScript.bonus[1];
+        bonus[2] =+ terrainScript.bonus[2];
+        bonus[3] =+ terrainScript.bonus[3];
+        bonus[4] =+ terrainScript.bonus[4];
+        bonus[5] =+ terrainScript.bonus[5];
+        bonus[6] =+ terrainScript.bonus[6];
+        bonus[7] =+ terrainScript.bonus[7];
+        bonus[8] =+ terrainScript.bonus[8];
 
         if (sliderSpeed.value >= 1)
         {
@@ -219,13 +230,13 @@ public class DataManager : MonoBehaviour
             if (reso > popu)
             {
                 popu++;
-                popu = popu + terrainScript.bonus[3];
+                popu = popu + bonus[3];
                 poputxt.text = "Population: " + popu;
 
-                if (secu - 1 + terrainScript.bonus[4] > 0)
+                if (secu - 1 + bonus[4] > 0)
                 {
                     secu--;
-                    secu = secu + terrainScript.bonus[4];
+                    secu = secu + bonus[4];
                     secutxt.text = "Security: " + secu;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: Population increased.\r\n" + cityEventtxt.text;
@@ -241,13 +252,13 @@ public class DataManager : MonoBehaviour
             else
             {
                 popu--;
-                popu = popu + terrainScript.bonus[3];
+                popu = popu + bonus[3];
                 poputxt.text = "Population: " + popu;
 
-                if (secu + 1 + terrainScript.bonus[4] < 100)
+                if (secu + 1 + bonus[4] < 100)
                 {
                     secu++;
-                    secu = secu + terrainScript.bonus[4];
+                    secu = secu + bonus[4];
                     secutxt.text = "Security: " + secu;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: Population decreased.\r\n" + cityEventtxt.text;
@@ -343,7 +354,7 @@ public class DataManager : MonoBehaviour
 
             if (miliValue <= mili)
             {
-                if (secu + 1 + terrainScript.bonus[4] > 100)
+                if (secu + 1 + bonus[4] > 100)
                 {
                     secu = 100;
                     secutxt.text = "Security: " + secu;
@@ -353,7 +364,7 @@ public class DataManager : MonoBehaviour
                 else
                 {
                     secu++;
-                    secu = secu + terrainScript.bonus[4];
+                    secu = secu + bonus[4];
                     secutxt.text = "Security: " + secu;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: City security increased.\r\n" + cityEventtxt.text;
@@ -361,10 +372,10 @@ public class DataManager : MonoBehaviour
             }
             else
             {
-                if (secu - 1 + terrainScript.bonus[5] > 0)
+                if (secu - 1 + bonus[5] > 0)
                 {
                     secu--;
-                    secu = secu + terrainScript.bonus[4];
+                    secu = secu + bonus[4];
                     secutxt.text = "Security: " + secu;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: City security decreased.\r\n" + cityEventtxt.text;
@@ -392,7 +403,7 @@ public class DataManager : MonoBehaviour
             if (miliValue <= mili)
             {
                 expInd++;
-                expInd = expInd + terrainScript.bonus[5];
+                expInd = expInd + bonus[5];
                 expIndtxt.text = "Expansion Index: " + expInd;
             }
         }
@@ -409,14 +420,14 @@ public class DataManager : MonoBehaviour
 
             if (reso > popu && ((secu < popu) && (secu > popu * 0.2)))
             {
-                if (happ + 1 + terrainScript.bonus[6] <= 100 && happ + 1 + terrainScript.bonus[6] >= 0)
+                if (happ + 1 + bonus[6] <= 100 && happ + 1 + bonus[6] >= 0)
                 {
-                    happ = happ + 1 + terrainScript.bonus[6];
+                    happ = happ + 1 + bonus[6];
                     happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
                 }
-                else if (happ + 1 + terrainScript.bonus[6] > 100)
+                else if (happ + 1 + bonus[6] > 100)
                 {
                     happ = 100;
                     happtxt.text = "Happines: " + happ;
@@ -433,10 +444,10 @@ public class DataManager : MonoBehaviour
             }
             else
             {
-                if (happ - 1 + terrainScript.bonus[6] > 0)
+                if (happ - 1 + bonus[6] > 0)
                 {
                     happ--;
-                    happ = happ + terrainScript.bonus[6];
+                    happ = happ + bonus[6];
                     happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
@@ -463,17 +474,17 @@ public class DataManager : MonoBehaviour
             {
                 if (secu < popu)
                 {
-                    if (rebInd + 1 + terrainScript.bonus[7] <= 100)
+                    if (rebInd + 1 + bonus[7] <= 100)
                     {
                         rebInd++;
-                        rebInd = rebInd + terrainScript.bonus[7];
+                        rebInd = rebInd + bonus[7];
                         rebIndtxt.text = "Rebellion index: " + rebInd;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens started a revolt, resources have been lost.\r\n" + cityEventtxt.text;
                         reso = Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent)));
                         resotxt.text = "Resources: " + reso;
                     }
-                    else if (collInd + 1 + terrainScript.bonus[8] < 100)
+                    else if (collInd + 1 + bonus[8] < 100)
                     {
                         rebInd = 100;
                         rebIndtxt.text = "Rebellion index: " + rebInd;
@@ -483,7 +494,7 @@ public class DataManager : MonoBehaviour
                         resotxt.text = "Resources: " + reso;
 
                         collInd++;
-                        collInd = collInd + terrainScript.bonus[8];
+                        collInd = collInd + bonus[8];
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The city has started to collapse.\r\n" + cityEventtxt.text;
                         collIndtxt.text = "Collapse index: " + collInd;
@@ -495,10 +506,10 @@ public class DataManager : MonoBehaviour
                 }
                 else
                 {
-                    if (happ - 1 + terrainScript.bonus[6] > 0)
+                    if (happ - 1 + bonus[6] > 0)
                     {
                         happ--;
-                        happ = happ + terrainScript.bonus[6];
+                        happ = happ + bonus[6];
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
@@ -514,7 +525,7 @@ public class DataManager : MonoBehaviour
             }
             else
             {
-                if (rebInd - 1 + terrainScript.bonus[8] <= 0)
+                if (rebInd - 1 + bonus[8] <= 0)
                 {
                     rebInd = 0;
                     rebIndtxt.text = "Rebellion index: " + rebInd;
@@ -524,7 +535,7 @@ public class DataManager : MonoBehaviour
                 else
                 {
                     rebInd--;
-                    rebInd = rebInd + terrainScript.bonus[7];
+                    rebInd = rebInd + bonus[7];
                     rebIndtxt.text = "Rebellion index: " + rebInd;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: Riots have been reduced.\r\n" + cityEventtxt.text;
