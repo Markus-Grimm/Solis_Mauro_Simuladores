@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class TerrainScript : MonoBehaviour
 {
     public SpriteRenderer spriteRenderer;
@@ -20,6 +21,12 @@ public class TerrainScript : MonoBehaviour
     //econBonus, miliBonus, urbaBonus, popuBonus, secuBonus, expaBonus, happBonus, rebeBonus, collBonus;
     public int[] bonus = new int[9];
 
+    //Terrain limits
+    public int idNumber;
+    public GameObject[] terrainLimit = new GameObject[6];
+    public TerrainList objectList;
+    public bool isCity;
+    
     void Start()
     {
         selectPrefab = GameObject.Find("Selector");
@@ -28,21 +35,27 @@ public class TerrainScript : MonoBehaviour
         objectController = GameObject.Find("GameController");
         gameController = objectController.GetComponent<GameController>();
         dataManager = objectController.GetComponent<DataManager>();
+        objectList = objectController.GetComponent<TerrainList>();
+                        
+        terrainTag = transform.tag;
 
-        terrainTag = this.transform.tag;
+        isCity = false;
                 
-        spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         SetTerrainDetails();
-    }
 
-    private void Update()
-    {
-        
+        SetLimitTerrain();
     }
 
     public void SetCity()
     {
-        this.gameObject.AddComponent<CityScript>();
+        if (this.GetComponent<CityScript>() == null) 
+        {
+            isCity = true;
+
+            this.gameObject.AddComponent<CityScript>();
+            //this.gameObject.GetComponent<CityScript>().territory[0] = this.gameObject;
+        }
     }
 
     public void SetTerrainDetails()
@@ -181,4 +194,33 @@ public class TerrainScript : MonoBehaviour
             selectPrefab.GetComponent<Select>().Translate(this.transform.position);
         }        
     }
+
+    private void SetLimitTerrain()
+    {
+        // East
+        if (idNumber + 1 <= objectList.terrainList.Length - 1)
+            terrainLimit[0] = objectList.terrainList[idNumber + 1].gameObject;
+        else terrainLimit[0] = null;
+        // SE
+        if (idNumber + 15 <= objectList.terrainList.Length - 1)
+            terrainLimit[1] = objectList.terrainList[idNumber + 15].gameObject;
+        else terrainLimit[1] = null;
+        // SW
+        if (idNumber + 14 <= objectList.terrainList.Length - 1)
+            terrainLimit[2] = objectList.terrainList[idNumber + 14].gameObject;
+        else terrainLimit[2] = null;
+        // West
+        if (idNumber - 1 >= 0)
+            terrainLimit[3] = objectList.terrainList[idNumber - 1].gameObject;
+        else terrainLimit[3] = null;
+        // NW
+        if (idNumber - 15 >= 0)
+            terrainLimit[4] = objectList.terrainList[idNumber - 15].gameObject;
+        else terrainLimit[4] = null;
+        // NE
+        if (idNumber - 14 >= 0)
+            terrainLimit[5] = objectList.terrainList[idNumber - 14].gameObject;
+        else terrainLimit[5] = null;
+    }
+
 }

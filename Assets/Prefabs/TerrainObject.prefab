@@ -26,9 +26,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3281230258302932486}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.43, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6552047198632855338}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -102,8 +103,52 @@ MonoBehaviour:
   water: {fileID: 21300000, guid: 34b549b6c7edca14a95fa5ed50ce9591, type: 3}
   forest: {fileID: 21300000, guid: fc6b03fca231c9b4b90ddf14e448a387, type: 3}
   snowForest: {fileID: 21300000, guid: c8985acae6a04d94f860af985498f9f9, type: 3}
+  snowPlains: {fileID: 0}
   jungle: {fileID: 21300000, guid: eca001d9be59f2444b8d4d92c24cea37, type: 3}
   volcano: {fileID: 21300000, guid: 68f626266e2613e4aa3c23a8237571bd, type: 3}
   city: {fileID: 21300000, guid: 77831ffc42dba984e91698f5b4d56780, type: 3}
-  cantMov: 0
   movement: 0
+  conquest: 0
+  selectPrefab: {fileID: 0}
+  isSelected: 0
+  terrainTag: 
+  bonus: 000000000000000000000000000000000000000000000000000000000000000000000000
+  distanceRaycast: 0
+  raycastObject: {fileID: 0}
+  limiTerrains:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1 &8610891405416480990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6552047198632855338}
+  m_Layer: 6
+  m_Name: Raycast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6552047198632855338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610891405416480990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3281230258302932489}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,11 +1,9 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class TerrainDetails
 {
-    public GameObject gameObject;
+    public GameObject gameObj;
     public int code;
     public Vector3 coordinates;
     public int[] bonusScore = new int[9];
@@ -15,10 +13,10 @@ public class TerrainDetails
 
 public class TerrainList : MonoBehaviour
 {
-    [SerializeField] TerrainScript[] terrainList;
-    [SerializeField] GameObject terrainPrefab;
+    public TerrainScript[] terrainList;
+    public GameObject terrainPrefab;
 
-    [SerializeField] static List<TerrainDetails> terrainDetails = new List<TerrainDetails>();
+    public static List<TerrainDetails> terrainDetails = new List<TerrainDetails>();
     
     public static void Main(TerrainScript[] terrains)
     {
@@ -29,17 +27,18 @@ public class TerrainList : MonoBehaviour
         {
             initialList.Add(new TerrainDetails() 
             { 
-                gameObject = terrains[i].gameObject, 
-                code = i, 
+                gameObj = terrains[i].gameObject, 
+                code = i,                 
                 coordinates = terrains[i].gameObject.transform.position,
                 bonusScore = terrains[i].bonus,               
                 terrainTag = terrains[i].terrainTag,
             });
+            terrains[i].idNumber = i;
         }
         terrainDetails = initialList;
     }
 
-    void Start()
+    void Awake()
     {
         terrainPrefab = GameObject.FindGameObjectWithTag("TerrainPrefab");
 
@@ -49,8 +48,4 @@ public class TerrainList : MonoBehaviour
 
     }
 
-    void Update()
-    {
-        
-    }
 }

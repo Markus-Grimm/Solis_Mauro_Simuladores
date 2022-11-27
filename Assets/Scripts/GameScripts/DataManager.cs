@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 public class DataManager : MonoBehaviour
 {
     public float _econ, _mili, _urba;
-    public int econ, mili, urba, popu, reso, secu, expInd, happ, rebInd, collInd;
+    public int econ, mili, urba, popu, reso, secu, expInd, happ, rebInd, collInd, value;
     public int[] bonus = new int[9];
     public Text econtxt, militxt, urbatxt, poputxt, resotxt, secutxt, expIndtxt, happtxt, rebIndtxt, collIndtxt;
     public GameObject economy, militarism, urbanism, population, resources, security, expanIndex, happines, rebelIndex, collapseIndex;
@@ -27,10 +27,11 @@ public class DataManager : MonoBehaviour
 
     public bool pause, collBool;
 
+
     private void Awake()
     {
         gc = GameObject.Find("GameController");
-
+        
         terrainList = gc.GetComponent<TerrainList>();
 
         if (PlayerPrefs.HasKey("Economy"))
@@ -133,6 +134,8 @@ public class DataManager : MonoBehaviour
 
         limit = 10000;
 
+        value = 0;
+
         econTimer = (maxValue - econ) / (speed * speedMult);
         miliTimer = (maxValue - mili) / (speed * speedMult);
         urbaTimer = (maxValue - urba) / (speed * speedMult);
@@ -159,6 +162,7 @@ public class DataManager : MonoBehaviour
         city = GameObject.FindGameObjectWithTag("City");
         city.GetComponent<TerrainScript>().SetCity();
         terrainScript = city.GetComponent<TerrainScript>();
+        terrainScript.SetCity();
 
         bonus[0] =+ terrainScript.bonus[0];
         bonus[1] =+ terrainScript.bonus[1];
@@ -406,9 +410,40 @@ public class DataManager : MonoBehaviour
                 expInd = expInd + bonus[5];
                 expIndtxt.text = "Expansion Index: " + expInd;
             }
+
+            if (expInd >= 100)
+            {
+                value = Random.Range(0, 6);
+                //ExpansionTerritory();    
+                expInd = 0;
+                expIndtxt.text = "Expansion Index: " + expInd;
+            }
         }
 
         StartCoroutine(ExpansionModify(miliTimer));
+    }
+
+    private void ExpansionTerritory()
+    {
+        if (terrainScript.terrainLimit[value] != null && terrainScript.terrainLimit[value].GetComponent<TerrainScript>().isCity == false)
+        {
+            terrainScript.terrainLimit[value].GetComponent<TerrainScript>().isCity = true;
+            bonus[0] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[0];
+            bonus[1] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[1];
+            bonus[2] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[2];
+            bonus[3] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[3];
+            bonus[4] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[4];
+            bonus[5] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[5];
+            bonus[6] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[6];
+            bonus[7] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[7];
+            bonus[8] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[8];
+            bonus[9] = +terrainScript.terrainLimit[value].GetComponent<TerrainScript>().bonus[9];
+        }
+        else
+        {
+            value = Random.Range(0, 6);
+            ExpansionTerritory();
+        }
     }
 
     IEnumerator HappinessModify(float timer)
