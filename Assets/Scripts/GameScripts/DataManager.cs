@@ -93,7 +93,7 @@ public class DataManager : MonoBehaviour
 
         happines = GameObject.Find("Happiness");
         happtxt = happines.GetComponent<Text>();
-        happ = Mathf.RoundToInt(urbaPercent * urba);
+        happ = Mathf.RoundToInt((urbaPercent * 2) * urba);
         happtxt.text = "Happiness: " + happ;
 
         rebelIndex = GameObject.Find("Rebellionindex");
@@ -271,7 +271,7 @@ public class DataManager : MonoBehaviour
         yield return new WaitForSeconds(timer); 
         if (sliderSpeed.value != 0 && !collBool && !pause)
         {
-            if (reso > popu)
+            if (reso > (popu + 1 + bonus[3]))
             {
                 popu++;
                 popu = popu + bonus[3];
@@ -546,21 +546,17 @@ public class DataManager : MonoBehaviour
         {
             urbaValue = Random.Range(minValue, maxValue);
 
-            if (reso > popu && ((secu < popu) && (secu > popu * 0.2)))
+            if (reso > popu && secu <= popu && secu > popu * 0.2)
             {
-                if (happ + 1 + bonus[7] <= 100 && happ + 1 + bonus[7] >= 0 && happ + 1 + bonus[7] > happ)
+                if (happ + 1 + bonus[7] > 0)
                 {
-                    happ = happ + 1 + bonus[7];
-                    happtxt.text = "Happines: " + happ;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
-                }
-                else if (happ + 1 + bonus[7] > 100 && happ + 1 + bonus[7] > happ)
-                {
-                    happ = 100;
-                    happtxt.text = "Happines: " + happ;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                    if (happ + 1 + bonus[7] > happ)
+                    {
+                        happ = happ + 1 + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                    }
                 }
                 else
                 {
@@ -570,15 +566,26 @@ public class DataManager : MonoBehaviour
                     cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
                 }
             }
-            else
+            else if (reso < popu)
             {
-                if (happ - 1 + bonus[7] > 0 && happ - 1 + bonus[7] < happ)
+                if (happ - 1 + bonus[7] > 0)
                 {
-                    happ--;
-                    happ = happ + bonus[7];
-                    happtxt.text = "Happines: " + happ;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                    if (happ - 1 + bonus[7] < happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                    }
+                    else if (happ - 1 + bonus[7] != happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                    }                    
                 }
                 else
                 {
@@ -586,6 +593,50 @@ public class DataManager : MonoBehaviour
                     happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                }
+            }
+            else if (secu < popu * 0.2)
+            {
+                if (happ - 1 + bonus[7] > 0)
+                {
+                    if (happ - 1 + bonus[7] < happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens feel insecure and unhappy.\r\n" + cityEventtxt.text;
+                    }
+                    else if (happ - 1 + bonus[7] != happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                    }
+                }
+            }
+            else
+            {
+                if (happ - 1 + bonus[7] > 0)
+                {
+                    if (happ - 1 + bonus[7] < happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens feel oppressed and unhappy.\r\n" + cityEventtxt.text;
+                    }
+                    else if (happ - 1 + bonus[7] != happ)
+                    {
+                        happ--;
+                        happ = happ + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                    }
                 }
             }
         }
@@ -602,7 +653,7 @@ public class DataManager : MonoBehaviour
             {
                 if (secu < popu)
                 {
-                    if (rebInd + 1 + bonus[8] <= 100)
+                    if (rebInd + 1 + bonus[8] <= 100 && rebInd + 1 + bonus[8] > 0)
                     {
                         rebInd++;
                         rebInd = rebInd + bonus[8];
@@ -659,7 +710,7 @@ public class DataManager : MonoBehaviour
                 }
                 else
                 {
-                    if (happ - 1 + bonus[7] > 0)
+                    if (happ - 1 + bonus[7] > 0 && happ - 1 + bonus[7] < 100)
                     {
                         happ--;
                         happ = happ + bonus[7];
@@ -667,13 +718,20 @@ public class DataManager : MonoBehaviour
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
                     }
-                    else
+                    else if (happ - 1 + bonus[7] < 100)
                     {
                         happ = 0;
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
-                    }                
+                    }
+                    else
+                    {
+                        happ = 100;
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
+                    }
                 }                
             }
             else
