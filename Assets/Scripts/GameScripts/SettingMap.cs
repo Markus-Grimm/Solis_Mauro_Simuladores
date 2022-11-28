@@ -7,50 +7,41 @@ public class SettingMap : MonoBehaviour
 {
     public GameObject[] terrains;
     public Text economy, militarism, urbanism;
+    public TerrainList terrainList;
 
-    void Start()
+    void Awake()
     {
+        terrainList = GetComponent<TerrainList>();
         ActiveMap();
     }
 
     private void ActiveMap()
     {
-        terrains[0].SetActive(false);
-        terrains[1].SetActive(false);
-        terrains[2].SetActive(false);
-        terrains[3].SetActive(false);
-        terrains[4].SetActive(false);
-
         switch (PlayerPrefs.GetString("MapChoosen"))
         {
             case "Plains":
-                terrains[0].SetActive(true);
+                Instantiate(terrains[0], new Vector3(0, 0, 0), Quaternion.identity);
                 break;
 
             case "Desert":
-                terrains[1].SetActive(true);
+                Instantiate(terrains[1], new Vector3(0, 0, 0), Quaternion.identity);
                 break;
 
             case "SnowForest":
-                terrains[2].SetActive(true);
+                Instantiate(terrains[2], new Vector3(0, 0, 0), Quaternion.identity);
                 break;
 
             case "Jungle":
-                terrains[3].SetActive(true);
+                Instantiate(terrains[3], new Vector3(0, 0, 0), Quaternion.identity);
                 break;
 
             case "Mountain":
-                terrains[4].SetActive(true);
+                Instantiate(terrains[4], new Vector3(0, 0, 0), Quaternion.identity);
                 break;
-
 
             default:
                 break;
         }
     }
 
-    void Update()
-    {
-        
-    }
 }

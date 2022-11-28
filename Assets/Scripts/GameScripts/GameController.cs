@@ -10,9 +10,13 @@ public class GameController : MonoBehaviour
     public int cantCities, maxCities;
     public bool startSim;
 
+    private void Awake()
+    {
+        
+    }
+
     void Start()
     {
-
         selectObj = GameObject.Find("Selector");
 
         if (PlayerPrefs.HasKey("CantCities")) PlayerPrefs.GetInt("CantCities", cantCities);
