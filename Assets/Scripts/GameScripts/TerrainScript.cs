@@ -66,7 +66,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = plains;
                 movement = true;
                 conquest = false;
-                bonus = new int [10]{ 3, 1, 2, 3, 4, 1, 2, 2, -1, -1};
+                bonus = new int [10]{ 3, 1, 2, 3, 4, 1, 2, 2, 0, 0};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -74,7 +74,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = mountain;
                 movement = false;
                 conquest = false;
-                bonus = new int[10] { 2, 3, 1, 0, 6, 0, 2, 1, 0, 0};
+                bonus = new int[10] { 2, 3, 1, 0, 6, 0, 2, 1, 1, 1};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -82,7 +82,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = desert;
                 movement = true;
                 conquest = false;
-                bonus = new int[10] { -1, 2, -1, 0, 1, 2, -1, -1, 1, 2};
+                bonus = new int[10] { -1, 2, -1, 0, 1, 2, -1, -1, 2, 3};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -90,7 +90,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = water;
                 movement = false;
                 conquest = false;
-                bonus = new int[10] { 6, 0, 3, 4, 4, 0, -1, 3, -2, -2};
+                bonus = new int[10] { 6, 0, 3, 4, 4, 0, -1, 3, -1, -1};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -98,7 +98,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = forest;
                 movement = true;
                 conquest = false;
-                bonus = new int[10] { 5, 1, 4, 3, 3, -1, 2, 3, -2, -2};
+                bonus = new int[10] { 5, 1, 4, 3, 3, -1, 2, 3, -1, -1};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -106,7 +106,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = snowForest;
                 movement = true;
                 conquest = false;
-                bonus = new int[10] { 4, 0, 3, 2, 2, -2, 0, 2, -1, -1};
+                bonus = new int[10] { 4, 0, 3, 2, 2, -2, 0, 2, 0, 0};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -114,7 +114,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = jungle;
                 movement = true;
                 conquest = false;
-                bonus = new int[10] { 6, -1, 1, 2, 4, -2, -1, 5, -1, 0};
+                bonus = new int[10] { 6, -1, 1, 2, 4, -2, -1, 5, 0, 1};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -122,7 +122,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = volcano;
                 movement = false;
                 conquest = false;
-                bonus = new int[10] { -2, 5, -4, 0, 6, 0, -1, -1, 2, 0};
+                bonus = new int[10] { -2, 5, -4, 0, 6, 0, -1, -1, 3, 1};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -130,7 +130,7 @@ public class TerrainScript : MonoBehaviour
                 spriteRenderer.sprite = snowPlains;
                 movement = true;
                 conquest = false;
-                bonus = new int[10] { -1, 4, 1, -1, -1, 3, 1, 1, -1, -1};
+                bonus = new int[10] { -1, 4, 1, -1, -1, 3, 1, 1, 0, 0};
                 // Econ1, Mili2, Urba3, Popu4, Reso5, Secu6, Expa7, Happ8, Rebe9, Coll10
                 break;
 
@@ -153,10 +153,18 @@ public class TerrainScript : MonoBehaviour
         if (contador && gameController.cantCities < gameController.maxCities)
         {
             gameController.cantCities++;
+            for (int i = 0; i < 9; i++)
+            {
+                dataManager.bonus[i] =+ bonus[i];
+            }
         }
         else if (gameController.cantCities > 0)
         {
             gameController.cantCities--;
+            for (int i = 0; i < 9; i++)
+            {
+                dataManager.bonus[i] = 0;
+            }
         }
         this.gameObject.tag = tag;
         SetTerrainDetails();

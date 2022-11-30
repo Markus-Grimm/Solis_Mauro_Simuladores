@@ -9,30 +9,52 @@ using Random = UnityEngine.Random;
 
 public class DataManager : MonoBehaviour
 {
-    public float _econ, _mili, _urba;
-    public int econ, mili, urba, popu, reso, secu, expInd, happ, rebInd, collInd, value, range, territories;
+    [Header("Economy Input")]
+    public float _econ;
+    [Header("Military Input")]
+    public float _mili;
+    [Header("Urbanism Input")]
+    public float _urba;
+    [Header("Output Data")]
+    public int econ;
+    public int mili, urba, popu, reso, secu, expInd, happ, rebInd, collInd;
+    [Header("Not Visible Data")]
+    public int value;
+    public int minValue, maxValue, econValue, miliValue, urbaValue, resoValue, limit, range, territories;
+    public float econPercent, miliPercent, urbaPercent, econTimer, miliTimer, urbaTimer;
     public int[] bonus = new int[9];
+
+    [Header("GameObjects and Texts")]
+    public GameObject economy;
+    public GameObject militarism, urbanism, population, resources, security, expanIndex, happines, rebelIndex, collapseIndex;
     public Text econtxt, militxt, urbatxt, poputxt, resotxt, secutxt, expIndtxt, happtxt, rebIndtxt, collIndtxt;
-    public GameObject economy, militarism, urbanism, population, resources, security, expanIndex, happines, rebelIndex, collapseIndex;
+
 
     //Change values in time
+    [Header("Slider and Speed")]
     public Slider sliderSpeed;
-    public GameObject sliderGameobj, speedObj, cityEvent, collapseObj, conquestObj, timeObj;
-    public Text speedText, cityEventtxt, collapsetxt, conquesttxt, timetxt;
-    public int speedMult, speed, minValue, maxValue, econValue, miliValue, urbaValue, resoValue, timeEcon, timeMili, timeUrba, limit;
-    public float time, econPercent, miliPercent, urbaPercent, econTimer, miliTimer, urbaTimer;
+    public GameObject sliderGameobj, speedObj;
+    public Text speedText;
+    public int speedMult, speed;
 
-    public GameObject gc, city;
+    [Header("Events and Time")]
+    public GameObject cityEvent;
+    public GameObject collapseObj, conquestObj, timeObj;
+    public Text cityEventtxt, collapsetxt, conquesttxt, timetxt;
+    public float time;
+
+    [Header("Scripts")]
+    public GameObject gc;
+    public GameObject city;
     public TerrainList terrainList;
     public TerrainScript terrainScript;
 
+    [Header("Pause boolean")]
     public bool pause, collBool;
 
 
     private void Awake()
-    {
-        bonus.Initialize();  // Reset
-        
+    {        
         gc = GameObject.Find("GameController");
         
         terrainList = gc.GetComponent<TerrainList>();
@@ -41,23 +63,37 @@ public class DataManager : MonoBehaviour
         {
             _econ = PlayerPrefs.GetFloat("Economy");
             econ = Mathf.RoundToInt(_econ);
-        } else econ = 1;
+        } else econ = Random.Range(1, 333);
 
         if (PlayerPrefs.HasKey("Military"))
         {
             _mili = PlayerPrefs.GetFloat("Military");
             mili = Mathf.RoundToInt(_mili);
-        } else mili = 1;
+        } else mili = Random.Range(1, 333);
 
         if (PlayerPrefs.HasKey("Urbanism"))
         {
             _urba = PlayerPrefs.GetFloat("Urbanism");
             urba = Mathf.RoundToInt(_urba);
-        } else urba = 1;
+        } else urba = Random.Range(1, 333);
 
         econPercent = 0.2f;
         miliPercent = 0.2f;
         urbaPercent = 0.2f;
+
+        collBool = false;
+        pause = false;
+
+        speedMult = 100;
+
+        minValue = 1;
+        maxValue = 1000;
+
+        limit = 3000;
+
+        value = 0;
+        range = 0;
+        territories = 0;
 
         economy = GameObject.Find("Economy");
         econtxt = economy.GetComponent<Text>();
@@ -106,11 +142,10 @@ public class DataManager : MonoBehaviour
         collInd = 0;
         collIndtxt.text = "Collapse index: " + collInd;
 
-
-        sliderGameobj = GameObject.Find("SpeedSlider");
+        sliderGameobj = GameObject.FindGameObjectWithTag("Slider");
         sliderSpeed = sliderGameobj.GetComponent<Slider>();
         sliderSpeed.value = 1f;
-        speedObj = GameObject.Find("Speed");
+        speedObj = GameObject.FindGameObjectWithTag("Speed");
         speedText = speedObj.GetComponent<Text>();
         speed = 1;
         speedText.text = "X" + 1;
@@ -122,34 +157,15 @@ public class DataManager : MonoBehaviour
         collapsetxt = collapseObj.GetComponent<Text>();
 
         conquestObj = GameObject.Find("ConquestSignal");
-        conquesttxt = conquestObj.GetComponent<Text>();
+        conquesttxt = conquestObj.GetComponent<Text>(); 
 
         timeObj = GameObject.Find("Time");
         timetxt = timeObj.GetComponent<Text>();
         time = 0f;
-
-        collBool = false;
-        pause = false;
-
-        speedMult = 100;
-
-        minValue = 1;
-        maxValue = 1000;
-
-        limit = 3000;
-
-        value = 0;
-        range = 0;
-        territories = 0;
-
+                
         econTimer = (maxValue - econ) / (speed * speedMult);
         miliTimer = (maxValue - mili) / (speed * speedMult);
         urbaTimer = (maxValue - urba) / (speed * speedMult);
-    }
-
-    private void Start()
-    {
-                
     }
 
     private void Update()
@@ -201,17 +217,6 @@ public class DataManager : MonoBehaviour
             bonus[9] = bonus[9] + terrainScript.bonus[9];
 
             terrainScript.SetCity();
-
-            bonus[0] = bonus[0] + terrainScript.bonus[0];
-            bonus[1] = bonus[1] + terrainScript.bonus[1];
-            bonus[2] = bonus[2] + terrainScript.bonus[2];
-            bonus[3] = bonus[3] + terrainScript.bonus[3];
-            bonus[4] = bonus[4] + terrainScript.bonus[4];
-            bonus[5] = bonus[5] + terrainScript.bonus[5];
-            bonus[6] = bonus[6] + terrainScript.bonus[6];
-            bonus[7] = bonus[7] + terrainScript.bonus[7];
-            bonus[8] = bonus[8] + terrainScript.bonus[8];
-            bonus[9] = bonus[9] + terrainScript.bonus[9];
         }        
 
         if (sliderSpeed.value >= 1)
@@ -232,8 +237,6 @@ public class DataManager : MonoBehaviour
         StartCoroutine(SecurityModify(miliTimer));
         StartCoroutine(ExpansionModify(miliTimer));
         StartCoroutine(HappinessModify(urbaTimer));
-        StartCoroutine(RebellionModify(urbaTimer));
-
     }
 
     public void PauseSim()
@@ -247,7 +250,7 @@ public class DataManager : MonoBehaviour
         speed = Mathf.RoundToInt(sliderSpeed.value);
         speedText.text = "X: " + speed;
         
-        if (speed != 0 && !collBool && !pause)
+        if (speed != 0)
         {
             econTimer = (maxValue - econ) / (speed * speedMult);
             miliTimer = (maxValue - mili) / (speed * speedMult);
@@ -334,10 +337,20 @@ public class DataManager : MonoBehaviour
 
             if (econValue <= econ)
             {
-                reso = reso + bonus[4] + Mathf.RoundToInt(popu * (1 - econPercent));
-                resotxt.text = "Resources: " + reso;
-                if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                cityEventtxt.text = "Last event: The citizens are working hard.\r\n" + cityEventtxt.text;
+                if (happ <= popu)
+                {
+                    reso = reso + bonus[4] + Mathf.RoundToInt(popu * (1 - econPercent));
+                    resotxt.text = "Resources: " + reso;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens are working hard.\r\n" + cityEventtxt.text;
+                }
+                else
+                {
+                    reso = reso + bonus[4] + Mathf.RoundToInt((popu * (1 - econPercent)) * 2);
+                    resotxt.text = "Resources: " + reso;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens are happy and work very hard.\r\n" + cityEventtxt.text;
+                }                
             }
 
             if (reso >= (popu + (reso * econPercent)))
@@ -546,7 +559,7 @@ public class DataManager : MonoBehaviour
         {
             urbaValue = Random.Range(minValue, maxValue);
 
-            if (reso > popu && secu <= popu && secu > popu * 0.2)
+            if (reso > popu && secu > popu * 0.2 && secu <= popu && urbaValue < urba)
             {
                 if (happ + 1 + bonus[7] > 0)
                 {
@@ -556,6 +569,7 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                 }
                 else
@@ -564,6 +578,7 @@ public class DataManager : MonoBehaviour
                     happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                    RebellionModify();
                 }
             }
             else if (reso < popu)
@@ -576,7 +591,8 @@ public class DataManager : MonoBehaviour
                         happ = happ + bonus[7];
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                        cityEventtxt.text = "Last event: Resources are insufficient, the citizens are unhappy.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                     else if (happ - 1 + bonus[7] != happ)
                     {
@@ -585,6 +601,7 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }                    
                 }
                 else
@@ -592,7 +609,8 @@ public class DataManager : MonoBehaviour
                     happ = 0;
                     happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                    cityEventtxt.text = "Last event: Resources are insufficient, the citizens are unhappy.\r\n" + cityEventtxt.text;
+                    RebellionModify();
                 }
             }
             else if (secu < popu * 0.2)
@@ -606,6 +624,7 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens feel insecure and unhappy.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                     else if (happ - 1 + bonus[7] != happ)
                     {
@@ -614,10 +633,19 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                 }
+                else
+                {
+                    happ = 0;
+                    happtxt.text = "Happines: " + happ;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens feel insecure and unhappy.\r\n" + cityEventtxt.text;
+                    RebellionModify();
+                }
             }
-            else
+            else if (secu > popu)
             {
                 if (happ - 1 + bonus[7] > 0)
                 {
@@ -628,6 +656,7 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens feel oppressed and unhappy.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                     else if (happ - 1 + bonus[7] != happ)
                     {
@@ -636,126 +665,152 @@ public class DataManager : MonoBehaviour
                         happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                         cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                 }
             }
-        }
-
-        StartCoroutine(HappinessModify(urbaTimer));
-    }
-
-    IEnumerator RebellionModify(float timer)
-    {
-        yield return new WaitForSeconds(timer);
-        if (sliderSpeed.value != 0 && !collBool && !pause)
-        {
-            if (happ < Mathf.RoundToInt(urba * urbaPercent))
+            else
             {
-                if (secu < popu)
+                if (happ + 1 + bonus[7] > 0)
                 {
-                    if (rebInd + 1 + bonus[8] <= 100 && rebInd + 1 + bonus[8] > 0)
+                    if (happ + 1 + bonus[7] > happ)
                     {
-                        rebInd++;
-                        rebInd = rebInd + bonus[8];
-                        rebIndtxt.text = "Rebellion index: " + rebInd;
+                        happ = happ + 1 + bonus[7];
+                        happtxt.text = "Happines: " + happ;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The citizens started a revolt, resources have been lost.\r\n" + cityEventtxt.text;
-                        if (Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent))) > 0)
-                        {
-                            reso = Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent)));
-                            resotxt.text = "Resources: " + reso;
-                        }
-                        else
-                        {
-                            reso = 0;
-                            resotxt.text = "Resources: " + reso;
-                            if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                            cityEventtxt.text = "Last event: Your resources have been exhausted, the citizens are starving.\r\n" + cityEventtxt.text;
-                            popu = Mathf.RoundToInt(popu - Random.Range(1, (popu * 0.1f)));
-                            poputxt.text = "Population: " + popu;
-                        }
-                        
+                        cityEventtxt.text = "Last event: The citizens are happier.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
-                    else if (collInd + 1 + bonus[9] < 100)
-                    {
-                        rebInd = 100;
-                        rebIndtxt.text = "Rebellion index: " + rebInd;
-                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The citizens started a revolt, resources have been lost.\r\n" + cityEventtxt.text;
-                        if (Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent))) > 0)
-                        {
-                            reso = Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent)));
-                            resotxt.text = "Resources: " + reso;
-                        }
-                        else
-                        {
-                            reso = 0;
-                            resotxt.text = "Resources: " + reso;
-                            if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                            cityEventtxt.text = "Last event: Your resources have been exhausted, the citizens are starving.\r\n" + cityEventtxt.text;
-                            popu = Mathf.RoundToInt(popu - Random.Range(1, (popu * 0.1f)));
-                            poputxt.text = "Population: " + popu;
-                        }
-
-                        collInd++;
-                        collInd = collInd + bonus[9];
-                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The city has started to collapse.\r\n" + cityEventtxt.text;
-                        collIndtxt.text = "Collapse index: " + collInd;
-                    } 
                     else
-                    {                        
-                        Collapse("The city has collapsed.");
+                    {
+                        happ = happ + 1 + bonus[7];
+                        happtxt.text = "Happines: " + happ;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                        RebellionModify();
                     }
                 }
                 else
                 {
-                    if (happ - 1 + bonus[7] > 0 && happ - 1 + bonus[7] < 100)
+                    happ = 0;
+                    happtxt.text = "Happines: " + happ;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens are unhappy.\r\n" + cityEventtxt.text;
+                    RebellionModify();
+                }
+            }
+        }
+        StartCoroutine(HappinessModify(urbaTimer));
+    }
+
+    public void RebellionModify()
+    {        
+        if (happ < Mathf.RoundToInt(popu * (1 - urbaPercent)))
+        {
+            if (secu < popu)
+            {
+                if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) > 0)
+                {
+                    rebInd = Mathf.RoundToInt(rebInd + ((popu - secu) * 0.1f) + bonus[8]);
+                    rebIndtxt.text = "Rebellion index: " + rebInd;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens started a revolt, resources have been lost.\r\n" + cityEventtxt.text;
+                    if (Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent))) > 0)
                     {
-                        happ--;
-                        happ = happ + bonus[7];
-                        happtxt.text = "Happines: " + happ;
-                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
-                    }
-                    else if (happ - 1 + bonus[7] < 100)
-                    {
-                        happ = 0;
-                        happtxt.text = "Happines: " + happ;
-                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
+                        reso = Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent)));
+                        resotxt.text = "Resources: " + reso;
                     }
                     else
                     {
-                        happ = 100;
-                        happtxt.text = "Happines: " + happ;
+                        reso = 0;
+                        resotxt.text = "Resources: " + reso;
                         if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                        cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
+                        cityEventtxt.text = "Last event: Your resources have been exhausted, the citizens are starving.\r\n" + cityEventtxt.text;
+                        popu = Mathf.RoundToInt(popu - Random.Range(1, (popu * 0.1f)));
+                        poputxt.text = "Population: " + popu;
                     }
-                }                
-            }
-            else
-            {
-                if (rebInd - 1 + bonus[8] <= 0)
+                }
+                else
                 {
                     rebInd = 0;
                     rebIndtxt.text = "Rebellion index: " + rebInd;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: Riots have been reduced.\r\n" + cityEventtxt.text;
+                    cityEventtxt.text = "Last event: The riots have cleared up.\r\n" + cityEventtxt.text;
+                }
+
+                if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) >= 100 && Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) < 100)
+                {
+                    rebInd = 100;
+                    rebIndtxt.text = "Rebellion index: " + rebInd;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The citizens started a revolt, resources have been lost.\r\n" + cityEventtxt.text;
+                    if (Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent))) > 0)
+                    {
+                        reso = Mathf.RoundToInt(reso - (secu * (econPercent + miliPercent)));
+                        resotxt.text = "Resources: " + reso;
+                    }
+                    else
+                    {
+                        reso = 0;
+                        resotxt.text = "Resources: " + reso;
+                        if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                        cityEventtxt.text = "Last event: Your resources have been exhausted, the citizens are starving.\r\n" + cityEventtxt.text;
+                        popu = Mathf.RoundToInt(popu - Random.Range(1, (popu * 0.1f)));
+                        poputxt.text = "Population: " + popu;
+                    }
+                    collInd = Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]);
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The city has started to collapse.\r\n" + cityEventtxt.text;
+                    collIndtxt.text = "Collapse index: " + collInd;
+                }                                
+                if (Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) >= 100)
+                {
+                    Collapse("The riots have led to the city collapsing.");
+                }
+            }
+            else
+            {
+                if (happ - 1 + bonus[7] > 0 && happ - 1 + bonus[7] < 100)
+                {
+                    happ--;
+                    happ = happ + bonus[7];
+                    happtxt.text = "Happines: " + happ;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
+                }
+                else if (happ - 1 + bonus[7] < 100)
+                {
+                    happ = 0;
+                    happtxt.text = "Happines: " + happ;
+                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                    cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
                 }
                 else
                 {
-                    rebInd--;
-                    rebInd = rebInd + bonus[8];
-                    rebIndtxt.text = "Rebellion index: " + rebInd;
+                    happ = 100;
+                    happtxt.text = "Happines: " + happ;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: Riots have been reduced.\r\n" + cityEventtxt.text;
+                    cityEventtxt.text = "Last event: The authorities reduced the riots.\r\n" + cityEventtxt.text;
                 }
-            }
+            }                
         }
-
-        StartCoroutine(RebellionModify(urbaTimer));
-
+        else
+        {
+            if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) <= 0)
+            {
+                rebInd = 0;
+                rebIndtxt.text = "Rebellion index: " + rebInd;
+                if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                cityEventtxt.text = "Last event: Riots have been reduced.\r\n" + cityEventtxt.text;
+            }
+            else
+            {
+                rebInd = Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]);
+                rebIndtxt.text = "Rebellion index: " + rebInd;
+                if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                cityEventtxt.text = "Last event: Riots have been reduced.\r\n" + cityEventtxt.text;
+            }
+        }        
     }
 
     public void Conquest(string messege)
