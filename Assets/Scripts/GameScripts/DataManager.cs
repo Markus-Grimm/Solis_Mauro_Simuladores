@@ -190,9 +190,33 @@ public class DataManager : MonoBehaviour
 
         if (Input.GetKey(KeyCode.E))
         {
-            expInd =+ 100;
-            expIndtxt.text = "Expansion Index: " + expInd;
-
+            econ = limit;
+            econtxt.text = "Economy: " + econ;
+        }
+        if (Input.GetKey(KeyCode.M))
+        {
+            mili = limit;
+            militxt.text = "Militarism: " + mili;
+        }
+        if (Input.GetKey(KeyCode.U))
+        {
+            urba = limit;
+            urbatxt.text = "Urbanism: " + urba;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            popu = 0;
+            poputxt.text = "Population: " + popu;
+        }
+        if (Input.GetKey(KeyCode.Q))
+        {
+            ExpansionTerritory();
+            territories++;
+        }
+        if (Input.GetKey(KeyCode.T))
+        {
+            time = limit;
+            timetxt.text = "Year: " + time;
         }
     }
 
@@ -709,7 +733,7 @@ public class DataManager : MonoBehaviour
         {
             if (secu < popu)
             {
-                if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) > 0)
+                if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) > 0 && Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) < 100)
                 {
                     rebInd = Mathf.RoundToInt(rebInd + ((popu - secu) * 0.1f) + bonus[8]);
                     rebIndtxt.text = "Rebellion index: " + rebInd;
@@ -730,15 +754,14 @@ public class DataManager : MonoBehaviour
                         poputxt.text = "Population: " + popu;
                     }
                 }
-                else
+                else if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) <= 0)
                 {
                     rebInd = 0;
                     rebIndtxt.text = "Rebellion index: " + rebInd;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The riots have cleared up.\r\n" + cityEventtxt.text;
                 }
-
-                if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) >= 100 && Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) < 100)
+                else if (Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) < 100)
                 {
                     rebInd = 100;
                     rebIndtxt.text = "Rebellion index: " + rebInd;
@@ -762,8 +785,8 @@ public class DataManager : MonoBehaviour
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The city has started to collapse.\r\n" + cityEventtxt.text;
                     collIndtxt.text = "Collapse index: " + collInd;
-                }                                
-                if (Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) >= 100)
+                }
+                else if (Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) >= 100)
                 {
                     Collapse("The riots have led to the city collapsing.");
                 }
