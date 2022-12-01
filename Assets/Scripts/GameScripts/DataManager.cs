@@ -50,7 +50,7 @@ public class DataManager : MonoBehaviour
     public TerrainScript terrainScript;
 
     [Header("Pause boolean")]
-    public bool pause, collBool;
+    public bool pause, collBool, startSim;
 
 
     private void Awake()
@@ -83,13 +83,14 @@ public class DataManager : MonoBehaviour
 
         collBool = false;
         pause = false;
+        startSim = false;
 
         speedMult = 100;
 
         minValue = 1;
         maxValue = 1000;
 
-        limit = 3000;
+        limit = 2000;
 
         value = 0;
         range = 0;
@@ -218,6 +219,12 @@ public class DataManager : MonoBehaviour
             time = limit;
             timetxt.text = "Year: " + time;
         }
+
+        if (expInd >= 100)
+        {
+            expInd = -100;
+
+        }
     }
 
     public void StartSim()
@@ -254,6 +261,7 @@ public class DataManager : MonoBehaviour
         }
 
         pause = false;
+        startSim = true;
 
         StartCoroutine(Timer(time));
         StartCoroutine(PopulationModify(econTimer));
@@ -279,7 +287,17 @@ public class DataManager : MonoBehaviour
             econTimer = (maxValue - econ) / (speed * speedMult);
             miliTimer = (maxValue - mili) / (speed * speedMult);
             urbaTimer = (maxValue - urba) / (speed * speedMult);
-        }        
+        }
+
+        if (startSim)
+        {
+            StartCoroutine(Timer(time));
+            StartCoroutine(PopulationModify(econTimer));
+            StartCoroutine(ResourceModify(econTimer));
+            StartCoroutine(SecurityModify(miliTimer));
+            StartCoroutine(ExpansionModify(miliTimer));
+            StartCoroutine(HappinessModify(urbaTimer));
+        }
     }
 
     IEnumerator Timer(float timer)
@@ -326,22 +344,12 @@ public class DataManager : MonoBehaviour
                 popu = popu + bonus[3];
                 poputxt.text = "Population: " + popu;
 
-                if (secu + 1 + bonus[5] < 100)
-                {
-                    secu++;
-                    secu = secu + bonus[5];
-                    secutxt.text = "Security: " + secu;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: Population decreased.\r\n" + cityEventtxt.text;
-                }
-                else
-                {
-                    secu = 100;
-                    secutxt.text = "Security: " + secu;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: City security decreased.\r\n" + cityEventtxt.text;
-                }
-
+                secu++;
+                secu = secu + bonus[5];
+                secutxt.text = "Security: " + secu;
+                if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
+                cityEventtxt.text = "Last event: Population decreased.\r\n" + cityEventtxt.text;
+                
                 if (popu <= 0)
                 {
                     Collapse("The city has collapsed.");
@@ -435,17 +443,10 @@ public class DataManager : MonoBehaviour
 
             if (miliValue <= mili)
             {
-                if (secu + 1 + bonus[5] <= 100 && secu + 1 + bonus[4] >= 0)
+                if (secu + 1 + bonus[4] >= 0)
                 {
                     secu++;
                     secu = secu + bonus[5];
-                    secutxt.text = "Security: " + secu;
-                    if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
-                    cityEventtxt.text = "Last event: City security increased.\r\n" + cityEventtxt.text;
-                }
-                else if (secu + 1 + bonus[5] >= 100)
-                {
-                    secu = 100;
                     secutxt.text = "Security: " + secu;
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: City security increased.\r\n" + cityEventtxt.text;
@@ -761,7 +762,7 @@ public class DataManager : MonoBehaviour
                     if (cityEventtxt.text.Length > 300) cityEventtxt.text = "";
                     cityEventtxt.text = "Last event: The riots have cleared up.\r\n" + cityEventtxt.text;
                 }
-                else if (Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) < 100)
+                else if (Mathf.RoundToInt(rebInd + ((popu - secu) * 0.05f) + bonus[8]) >= 100 && Mathf.RoundToInt(collInd + ((popu - secu) * 0.05f) + bonus[9]) < 100)
                 {
                     rebInd = 100;
                     rebIndtxt.text = "Rebellion index: " + rebInd;
